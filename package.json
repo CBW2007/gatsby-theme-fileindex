@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-theme-fileindex",
+  "description": "A gatsby theme to generate file index.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby theme",
+    "files",
+    "index"
+  ],
+  "author": "CBW2007 <2337118038@qq.com>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "gatsby": "^2.28.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "gatsby": "^2.28.2",
+    "gatsby-cli": "^2.16.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.7.0"
+  }
+}
