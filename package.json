@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-theme-fileindex",
-  "description": "A gatsby theme to generate file index.",
+  "name": "gatsby-theme-simple-index",
+  "description": "A simple file index,powered by Gatsby.",
   "main": "index.js",
   "scripts": {
     "build": "gatsby build",
@@ -10,9 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "react",
     "gatsby",
-    "gatsby theme",
-    "files",
+    "gatsby-plugin",
     "index"
   ],
   "author": "CBW2007 <2337118038@qq.com>",
@@ -30,5 +30,13 @@
   },
   "dependencies": {
     "gatsby-source-filesystem": "^2.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBW2007/gatsby-theme-simple-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CBW2007/gatsby-theme-simple-index/issues"
+  },
+  "homepage": "https://github.com/CBW2007/gatsby-theme-simple-index#readme"
 }
