@@ -18,10 +18,10 @@ exports.createPages = async ({ actions, graphql }) => {
   }
 
   result.data.allDirectory.edges.forEach(({node}) => {
-    const dir = '/'+node.relativePath
+    const dir = node.relativePath
     createPage({
-      path: dir,
-      component: path.resolve("./src/fileDirectory.js"),
+      path: '/'+dir,
+      component: path.resolve("./src/dir.js"),
       context: {
         dir,
       },
